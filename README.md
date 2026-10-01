@@ -1,47 +1,78 @@
-# Brera StyleBook
+# BRERA StyleBook
 
-I kept running into the same small problem: the visual reference I wanted to reuse with AI was somewhere — Downloads, screenshots, an old folder, a bookmark — but not where I needed it.
+<p align="center">
+  <img src="assets/guide/01-main-library-styles.png" alt="BRERA StyleBook — libreria visuale per riferimenti AI" width="100%">
+</p>
 
-**Brera StyleBook** started as an attempt to make that loop simpler: keep visual references together, find them quickly, and copy them into the next AI task without rebuilding the context every time.
+<p align="center">
+  <strong>La tua libreria visuale locale per lavorare meglio con l'AI.</strong><br>
+  Trova il riferimento giusto. Copialo. Riutilizzalo.
+</p>
 
-[Open the live site →](https://brera-stylebook.netlify.app/)
+<p align="center">
+  <a href="https://brera-stylebook.netlify.app/"><strong>🌐 Sito live</strong></a> ·
+  <a href="https://brera-stylebook.netlify.app/guide/"><strong>📖 Guida completa</strong></a> ·
+  <a href="https://emaf205.gumroad.com/l/brera-stylebook"><strong>↗ BRERA StyleBook</strong></a>
+</p>
 
-## What it is
+---
 
-StyleBook 1.2.0 is a local-first visual reference library for AI workflows.
+## Cos'è
 
-It lets you:
+**BRERA StyleBook 1.2.0** è una libreria visuale *local-first* pensata per organizzare e riutilizzare riferimenti visivi nei workflow con ChatGPT e altri strumenti AI.
 
-- add PNG, JPEG, WEBP and GIF references;
-- organize them with custom categories;
-- search titles and filter favorites;
-- switch between grid and list views;
-- rename and recategorize references;
-- copy a reference image to the clipboard;
-- export a JSON backup and restore it with Merge or Replace.
+Nasce da un problema molto semplice: avere tante reference sparse tra screenshot, Download, cartelle e bookmark, ma non riuscire a ritrovare quella giusta quando serve.
 
-Version 1.2.0 includes **9 starter references** across STYLES and UX.
+StyleBook riduce quel passaggio a:
 
-## Why I built it
+**vedi → trovi → copi → riusi**
 
-Folders are good at storing files. They are less useful when the real task is: **see → find → copy → reuse**.
+## Cosa puoi fare
 
-StyleBook is built around that narrower workflow.
+- aggiungere immagini PNG, JPEG, WEBP e GIF;
+- organizzare le reference in categorie personalizzate;
+- cercare per titolo;
+- filtrare i preferiti;
+- passare tra vista griglia e lista;
+- rinominare e ricategorizzare le reference;
+- copiare un'immagine negli appunti con un click;
+- esportare un backup JSON;
+- ripristinare una libreria con modalità **Merge** o **Replace**.
 
-## Live version
+La versione **1.2.0** include **9 reference iniziali** nelle categorie **STYLES** e **UX**.
 
-**https://brera-stylebook.netlify.app/**
+## Dentro StyleBook
 
-The site includes the product overview, a complete guide, contact and privacy pages, plus a short workflow demo.
+<p align="center">
+  <img src="assets/guide/02-add-references.png" alt="Aggiunta di nuove reference in BRERA StyleBook" width="31%">
+  <img src="assets/guide/03-category-ux.png" alt="Categoria UX in BRERA StyleBook" width="31%">
+  <img src="assets/guide/07-favorites-view.png" alt="Vista Preferiti in BRERA StyleBook" width="31%">
+</p>
 
-## Repository contents
+<p align="center">
+  <img src="assets/guide/05-edit-reference.png" alt="Modifica di una reference" width="31%">
+  <img src="assets/guide/06-manage-categories.png" alt="Gestione delle categorie" width="31%">
+  <img src="assets/guide/04-backup-menu.png" alt="Menu backup e ripristino" width="31%">
+</p>
+
+## Perché l'ho creato
+
+Le cartelle archiviano bene i file. Il problema arriva dopo: quando devi **ritrovare rapidamente una reference e usarla in un prompt o in una nuova generazione**.
+
+BRERA StyleBook è costruito intorno a quel momento.
+
+Non vuole essere un DAM, un CMS o un archivio complesso. È un piccolo strumento visuale per avere le reference pronte quando servono.
+
+## Repository pubblico
+
+Questa repository contiene il **sito pubblico, la documentazione e gli asset dimostrativi** di BRERA StyleBook.
 
 ```text
 /
 ├── index.html
-├── guide/index.html
-├── contact/index.html
-├── privacy/index.html
+├── guide/
+├── contact/
+├── privacy/
 ├── assets/
 ├── styles.css
 ├── app.js
@@ -50,11 +81,17 @@ The site includes the product overview, a complete guide, contact and privacy pa
 ├── sitemap.xml
 ├── robots.txt
 ├── llms.txt
-└── supporting documentation
+└── documentazione di supporto
 ```
 
-This repository contains the public website and documentation for Brera StyleBook. The paid application package itself is distributed separately.
+Il pacchetto dell'applicazione distribuita agli utenti è separato dalla repository pubblica.
 
-## Built by EmaF205
+## Versione live
+
+**https://brera-stylebook.netlify.app/**
+
+Il sito include panoramica del prodotto, guida completa, pagina contatti, privacy e demo del workflow.
+
+## Creato da EmaF205
 
 [LinkedIn](https://it.linkedin.com/in/emanuelebdc) · [GitHub](https://github.com/emaf205)
