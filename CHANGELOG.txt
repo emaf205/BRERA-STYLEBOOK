@@ -1,0 +1,12 @@
+BRERA STYLEBOOK — CHANGELOG
+
+1.2.0 — 2026-08-26
+- Embedded new 9-reference starter library from the approved BRERA Stylebook backup.
+- Default categories: STYLES, UX.
+- Safe migration from untouched v1.1 starter data without overwriting user-created libraries.
+- Self-contained backup export for embedded starter references.
+- Updated START-HERE and README.
+
+1.1.0
+- Larger typography and readability improvements.
+- START-HERE link correction.
