@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brera-stylebook.netlify.app/sitemap.xml

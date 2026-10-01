@@ -1,0 +1,30 @@
+# StyleBook
+
+> StyleBook 1.2.0 is a local-first visual reference library for AI workflows, built by EmaF205.
+
+Canonical site: https://brera-stylebook.netlify.app/
+Guide: https://brera-stylebook.netlify.app/guide/
+Purchase: https://emaf205.gumroad.com/l/brera-stylebook
+Author: https://it.linkedin.com/in/emanuelebdc/
+
+## Verified product facts
+
+- Current version: 1.2.0
+- Local image upload and drag-and-drop
+- PNG, JPEG, WEBP and GIF support
+- One-click image copy to clipboard
+- Custom categories
+- Search and Favorites
+- 3-column, 5-column and list views
+- Editable titles and categories
+- Local browser storage
+- JSON backup export
+- Restore using Merge or Replace
+- 9 starter references: 5 STYLES + 4 UX
+- Safe migration from untouched v1.1 starter data without overwriting user-created libraries
+- Self-contained exported backups for embedded starter references
+- Delivered as a ZIP with START-HERE, complete product guide, README, changelog and licence
+
+## Positioning
+
+StyleBook is a personal visual reference library. It is not presented as a cloud collaboration platform, image generator, AI tagging engine or general file manager.
