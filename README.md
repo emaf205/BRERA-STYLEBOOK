@@ -1,93 +1,104 @@
-# BRERA StyleBook
+# BRERA StyleBook — Local-First Visual Reference Library for AI
 
 <p align="center">
-  <img src="assets/stylebook-og.png" alt="BRERA StyleBook — Visual Reference Library for AI" width="100%">
+  <img src="https://emaf205.com/github/assets/covers/BRERA-STYLEBOOK.jpg" alt="BRERA StyleBook Cover Artwork" width="100%">
+</p>
+
+> **See it → Find it → Copy it → Reuse it.**  
+> A lightweight, local-first visual library engineered for modern AI generative workflows. Keep your architectural, typographic, and art-directed reference prompts organized in your browser with zero server dependencies.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-brera--stylebook.netlify.app-dfff00?style=for-the-badge&logo=googlechrome&logoColor=000000)](https://brera-stylebook.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-emaf205%2FBRERA--STYLEBOOK-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emaf205/BRERA-STYLEBOOK)
+[![License: MIT](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
+
+---
+
+## ✦ The Genesis & Why This Exists
+
+If you work daily with generative AI models (ChatGPT, Midjourney, Stable Diffusion, Flux, Ideogram), you know the "reference chaos". You find a breathtaking poster, a rare typography specimen, or a specific Swiss grid layout. You screenshot it. It ends up buried in your `~/Downloads` folder, lost across browser bookmarks, or stranded inside Telegram saved messages.
+
+When you actually sit down to prompt or art-direct an asset, you spend 15 minutes digging through directories just to find the reference image or prompt modifier.
+
+I built **BRERA StyleBook** in Milan to eliminate this friction entirely. Named after Milan’s historic design and artistic district, it delivers a disciplined, local-first desktop workspace that does one thing with uncompromising precision:
+
+**Store your visual references locally, categorize them instantly, and copy their prompt DNA into your AI tool with a single click.**
+
+---
+
+## ✦ Live Interface & Screenshots
+
+<p align="center">
+  <img src="assets/stylebook-v120-library.webp" alt="BRERA StyleBook Library View" width="49%">
+  <img src="assets/stylebook-v120-add.webp" alt="Adding a New Reference" width="49%">
 </p>
 
 <p align="center">
-  <strong>Una libreria visuale local-first per i workflow con l'AI.</strong><br>
-  Trova il riferimento. Copialo. Usalo.
-</p>
-
-<p align="center">
-  <a href="https://brera-stylebook.netlify.app/"><strong>Sito live</strong></a> ·
-  <a href="https://brera-stylebook.netlify.app/guide/"><strong>Guida completa</strong></a> ·
-  <a href="https://emaf205.gumroad.com/l/brera-stylebook"><strong>BRERA StyleBook</strong></a>
+  <img src="assets/stylebook-v120-categories.webp" alt="Category Management" width="32%">
+  <img src="assets/stylebook-v120-favorites.webp" alt="Curated Favorites" width="32%">
+  <img src="assets/stylebook-v120-edit.webp" alt="Instant Modifier Editing" width="32%">
 </p>
 
 ---
 
-## Cos'è
+## ✦ What Makes It Different
 
-**BRERA StyleBook 1.2.0** nasce per risolvere un problema semplice: le reference visive finiscono tra screenshot, Download, cartelle e bookmark e, quando servono davvero, bisogna ricominciare a cercarle.
+1. **100% Local-First & Private**:
+   - Every reference, tag, and image is stored entirely inside your browser via IndexedDB and LocalStorage.
+   - Zero telemetry, zero external database, zero tracking. Your proprietary design references and creative assets never touch an external server.
+2. **One-Click Prompt Copy**:
+   - Click any card to instantly copy its visual prompt formula to your clipboard, ready to paste directly into ChatGPT, Midjourney, or Antigravity.
+3. **Flexible Visual Density**:
+   - Toggle seamlessly between a 3-column showcase, 5-column compact inspection, and structured list views.
+4. **Resilient Data Sovereignty**:
+   - Instant JSON backup exports and smart restorations supporting both non-destructive **Merge** and clean **Replace** modes.
+5. **Zero Compilation Overhead**:
+   - Engineered purely with modern semantic HTML5, CSS Grid/Flexbox, and vanilla ES6+ JavaScript. No node dependencies, zero build step.
 
-StyleBook concentra il flusso in quattro passaggi:
+---
 
-**vedi → trovi → copi → riusi**
+## ✦ Curated Foundation Categories
 
-È una libreria visuale locale pensata per avere le reference pronte da portare in ChatGPT o in altri strumenti AI compatibili.
+Out of the box, StyleBook comes seeded with curated reference buckets:
+- **STYLES**: Avant-garde brutalism, Swiss International typography, CRT scanlines, 35mm film grain, risograph printing, and industrial Bauhaus grids.
+- **UX & UI**: Micro-interactions, tactile mobile drawers, dashboard telemetry, and noble paper contrast palettes.
 
-## Cosa puoi fare
+---
 
-- aggiungere immagini PNG, JPEG, WEBP e GIF;
-- creare e gestire categorie personalizzate;
-- cercare le reference;
-- salvare i preferiti;
-- usare viste a 3 colonne, 5 colonne o lista;
-- rinominare e ricategorizzare le immagini;
-- copiare una reference negli appunti con un click;
-- esportare un backup JSON;
-- ripristinare la libreria con **Merge** o **Replace**.
+## ✦ Quickstart & Local Setup
 
-La versione **1.2.0** include **9 reference iniziali** divise tra **STYLES** e **UX**.
+```bash
+# Clone the repository
+git clone https://github.com/emaf205/BRERA-STYLEBOOK.git
+cd BRERA-STYLEBOOK
 
-## Il prodotto
+# Run locally with any static server
+python3 -m http.server 8080
 
-<p align="center">
-  <img src="assets/stylebook-v120-library.webp" alt="Libreria BRERA StyleBook" width="48%">
-  <img src="assets/stylebook-v120-add.webp" alt="Aggiunta di una reference in BRERA StyleBook" width="48%">
-</p>
-
-<p align="center">
-  <img src="assets/stylebook-v120-categories.webp" alt="Categorie di BRERA StyleBook" width="31%">
-  <img src="assets/stylebook-v120-favorites.webp" alt="Preferiti in BRERA StyleBook" width="31%">
-  <img src="assets/stylebook-v120-edit.webp" alt="Modifica di una reference" width="31%">
-</p>
-
-## Perché l'ho creato
-
-Le cartelle sono ottime per conservare file. Sono meno adatte al momento in cui devi **vedere, scegliere e riutilizzare velocemente un riferimento visivo**.
-
-BRERA StyleBook è costruito intorno a quel momento, senza diventare un DAM o un CMS complesso.
-
-## Repository
-
-Questa repository contiene il **sito pubblico, la guida, la documentazione e gli asset dimostrativi** di BRERA StyleBook.
-
-```text
-/
-├── index.html
-├── guide/
-├── contact/
-├── privacy/
-├── assets/
-├── styles.css
-├── app.js
-├── netlify.toml
-├── sitemap.xml
-├── robots.txt
-├── llms.txt
-└── documentazione
+# Or with Node
+npx serve .
 ```
 
-Il pacchetto dell'applicazione distribuito agli utenti è separato dalla repository pubblica.
+Open [http://localhost:8080](http://localhost:8080) in Chrome, Safari, or Arc.
 
-## Live
+---
 
-**https://brera-stylebook.netlify.app/**
+## ✦ Technical Architecture
 
-## Autore
+```text
+BRERA-STYLEBOOK/
+├── index.html           # Accessible semantic markup and grid views
+├── styles.css           # Swiss typography, responsive column containers
+├── app.js               # Reactive IndexedDB state manager and clipboard bridge
+├── assets/              # Curated starter references and UI assets
+├── netlify.toml         # Static hosting routing configuration
+└── README.md            # Documentation
+```
 
-Creato da **EmaF205**.
+---
 
-[LinkedIn](https://it.linkedin.com/in/emanuelebdc) · [GitHub](https://github.com/emaf205)
+## ✦ Author & Credits
+
+Designed and maintained by **[Emanuele BDC](https://emaf205.com)** in Milan.  
+Built for designers, art directors, creative technologists, and architects who demand absolute control over their AI aesthetic workflows.
+
+Distributed under the **MIT License**. Free for personal and commercial creative work.
