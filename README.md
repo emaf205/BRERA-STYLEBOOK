@@ -1,7 +1,7 @@
 # BRERA StyleBook — Local-First Visual Reference Library for AI
 
 <p align="center">
-  <img src="https://emaf205.com/github/assets/covers/BRERA-STYLEBOOK.jpg" alt="BRERA StyleBook Cover Artwork" width="100%">
+  <img src="assets/social-preview.jpg" alt="BRERA StyleBook Cover Artwork" width="100%">
 </p>
 
 > **See it → Find it → Copy it → Reuse it.**  
